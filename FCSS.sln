@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FCSS", "FCSS\FCSS.vcxproj", "{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamFCSS", "streamFCSS\streamFCSS.vcxproj", "{81B6BD12-2C55-4F65-9D2A-4211B992AE49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Debug|Win32.Build.0 = Debug|Win32
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Debug|x64.ActiveCfg = Debug|x64
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Debug|x64.Build.0 = Debug|x64
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Release|Win32.ActiveCfg = Release|Win32
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Release|Win32.Build.0 = Release|Win32
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Release|x64.ActiveCfg = Release|x64
+		{6E635252-9CD6-43A3-A3F8-6A2FF77D8199}.Release|x64.Build.0 = Release|x64
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Debug|Win32.Build.0 = Debug|Win32
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Debug|x64.ActiveCfg = Debug|x64
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Debug|x64.Build.0 = Debug|x64
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Release|Win32.ActiveCfg = Release|Win32
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Release|Win32.Build.0 = Release|Win32
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Release|x64.ActiveCfg = Release|x64
+		{81B6BD12-2C55-4F65-9D2A-4211B992AE49}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
