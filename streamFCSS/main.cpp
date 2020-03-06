@@ -26,11 +26,7 @@ int countFiles(char* input_path);
 bool makeDirectory(char* output_path);
 
 int main(int argc, char **argv) {
-	//if (argc < 5) {
-	//if (argc < 6) {
 	if (argc < 4) {
-		//printf("%s [input_folder] [output_folder] [sv_num] [compactness]\n", argv[0]);
-		//printf("%s [input_folder] [output_folder] [sv_num] [compactness] [densityExponent]\n", argv[0]);
 		printf("%s [input_folder] [output_folder] [sv_num]\n", argv[0]);
 #ifdef _WIN32
 		printf(" input_folder --> input folder of png video frames\n");
