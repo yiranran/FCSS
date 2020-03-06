@@ -8,7 +8,7 @@ Feature-Aware Uniform Tessellations on Video Manifold for Content-Sensitive Supe
 IEEE Transactions on Pattern Analysis and Machine Intelligence, 
 to appear.
 
-For more information of this paper, please visit [this page](https://cg.cs.tsighua.edu.cn/people/~Yongjin/Yongjin.html).
+For more information of this paper, please visit [this page](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm).
 
 
 ==========================================

@@ -924,7 +924,7 @@ public:
 
 		hashtable[-1] = 0;
 
-		map<int, int> numadj;//µ±Ç°¿éÖÜÎ§ÓÐ¼¸¸ölabel
+		map<int, int> numadj;//ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Î§ï¿½Ð¼ï¿½ï¿½ï¿½label
 		int nx, ny, nz;
 		int surx, sury, surz;
 		int labelNodeId = 0;
@@ -976,7 +976,7 @@ public:
 											int idxadj = surz*m_width*m_height + sury*m_width + surx;
 											if (klabels[nidx] != klabels[idxadj]) {
 												int adjlabel = klabels[idxadj];
-												auto ifadjexist = find(hashlabel.begin(), hashlabel.end(), adjlabel);
+												vector<int>::iterator ifadjexist = find(hashlabel.begin(), hashlabel.end(), adjlabel);
 												if (ifadjexist == hashlabel.end()) {
 													hashlabel.push_back(adjlabel);
 													adjl = kseedsl[klabels[adjlabel]];
@@ -1078,7 +1078,7 @@ public:
 
 		hashtable[-1] = 0;
 
-		map<int, int> numadj;//µ±Ç°¿éÖÜÎ§ÓÐ¼¸¸ölabel
+		map<int, int> numadj;//ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Î§ï¿½Ð¼ï¿½ï¿½ï¿½label
 		int nx, ny, nz;
 		int surx, sury, surz;
 
@@ -1129,7 +1129,7 @@ public:
 											int idxadj = surz*m_width*m_height + sury*m_width + surx;
 											if (klabels[nidx] != klabels[idxadj]) {
 												int adjlabel = klabels[idxadj];
-												auto ifadjexist = find(hashlabel.begin(), hashlabel.end(), adjlabel);
+												vector<int>::iterator ifadjexist = find(hashlabel.begin(), hashlabel.end(), adjlabel);
 												if (ifadjexist == hashlabel.end()) {
 													hashlabel.push_back(adjlabel);
 													adjl = kseedsl[klabels[adjlabel]];
