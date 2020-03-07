@@ -5,8 +5,7 @@ If you use this code, please cite our paper:
 
 [1] R. Yi, Z. Ye, W. Zhao, M. Yu, Y.-K. Lai and Y.-J. Liu. 
 Feature-Aware Uniform Tessellations on Video Manifold for Content-Sensitive Supervoxels. 
-IEEE Transactions on Pattern Analysis and Machine Intelligence, 
-to appear, 2020.
+IEEE Transactions on Pattern Analysis and Machine Intelligence. DOI (identifier) 10.1109/TPAMI.2020.2979714, 2020.
 
 For more information (pdf and demo video) of this paper, please visit [this page](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm).
 
